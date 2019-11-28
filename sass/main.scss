@@ -247,6 +247,26 @@ footer {
     font-size: 35px;
     color:#525252;
     display: flex;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    transition: .5s;
+
+  @media screen and (max-width: 600px)
+  {
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+  }
+
+  @media screen and (max-width: 300px)
+  {
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 3px 0 rgba(0, 0, 0, .3);
+  }
 
     span {
       color:inherit;
@@ -263,6 +283,17 @@ footer {
       background-repeat: no-repeat;
       width: 40px;
       height: 40px;
+
+      @media screen and (max-width: 600px)
+      {
+        width: 25px;
+        height: 25px;
+      }
+      @media screen and (max-width: 300px)
+      {
+        width: 20px;
+        height: 20px;
+      }
     }
   }
 }
