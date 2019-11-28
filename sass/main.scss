@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color:white;
+  font-family: RobotoR;
+}
+
+body {
+  background-color: white;
+  background-image: url(../image/backgroundS.svg);
+  background-size: cover;
+  width: 100%;
+  background-repeat: repeat-y;
+  height: auto;
+
+  @media screen and (max-width: 840px)
+  {
+    background-image: url(../image/backgroundMobile.svg);
+  }
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  .row {
+    width: auto;
+    min-width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .card {
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 400px;
+      height: 500px;
+      background-color: grey;
+      z-index: 1;
+      border-radius: 20px;
+      margin: 10px;
+      box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
+      background-size: contain;
+
+      @media screen and (max-width: 840px)
+      {
+        margin: 20px;
+      }
+      @media screen and (max-width: 440px)
+      {
+        width: 250px;
+        height: 400px;
+      }
+    }
+
+    .sass,
+    .html, .htmlcss, .js {
+      animation: rotatecard 3s ease-in-out infinite;
+    }
+
+  .html {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FF89F3 66.13%);
+    transition: .7s;
+  }
+
+  .html:hover, .sass:hover, .htmlcss:hover, .js:hover {
+    transition: .7s;
+    transform: scale(1.05,1.05);
+    animation: hover .4s ease-in-out;
+  }
+
+  .html:hover {
+    background-color: #FFC691;
+  }
+
+
+
+  @keyframes hover
+  {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.05);
+    }
+  }
+
+  @keyframes rotatecard {
+    0% {
+      transform: rotateZ(-1deg);
+    }
+    50% {
+      transform: rotateZ(1deg);
+    }
+    100% {
+      transform: rotateZ(-1deg);
+    }
+  }
+
+  .css {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #AC8DFF 66.13%);
+    transition: .3s;
+  }
+
+  .css:hover, .sass:hover {
+    background-color: #FF89F3;
+    animation: hover .4s ease-in-out;
+    transform: scale(1.05, 1.05);
+  }
+
+  .htmlcss {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #8DBBFF 66.13%);
+    transition: .3s;
+  }
+
+  .htmlcss:hover, .js:hover {
+    background-color: #AC8DFF;
+  }
+
+  .sass {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #8DBBFF 66.13%);
+    transition: .3s;
+  }
+
+  .bootstrap {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #AC8DFF 66.13%);
+    transition: .3s;
+
+    &:hover {
+      background-color: #FFC691;
+      transition: .5s;
+      transform: scale(1.05,1.05);
+    }
+  }
+
+  .js {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FF89F3 66.13%);
+    transition: .3s;
+  }
+
+  }
+
+  .another_card {
+    position: relative;
+    width: 45vw;
+    min-width: 400px;
+    height: 170px;
+    background-color: grey;
+    border-radius: 20px;
+    margin: 30px 0 30px 0;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
+    background-size: contain;
+    background: linear-gradient(90deg, #FFAED0 40%, rgba(255,198,145,.3) 90%);
+    transition: .3s;
+    @media screen and (max-width: 440px)
+    {
+      min-width: 250px;
+    }
+
+    &:hover {
+      transition: .5s;
+      transform: rotate(2deg);
+      background-color: rgba(255,198,145,1);
+    }
+
+    h2 {
+      margin: 20px 0 0;
+    }
+
+    p.description {
+      margin: 0 inherit -10px;
+    }
+  }
+  .number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  color: #525252;
+  box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  margin: -10px -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: RobotoB;
+  font-size: 25px;
+  animation: go 3s ease-in-out infinite;
+  }
+
+  @keyframes go {
+    0% {
+      transform: scale(1);
+    }
+
+    66% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  p.description {
+    padding: 0 40px 40px;
+    font-family: RobotoL;
+    font-size: 20px;
+
+    @media all and (max-width: 440px)
+    {
+      padding: 0 30px 30px;
+    }
+  }
+
+  h2 {
+    padding: 0 37px;
+    font-size: 60px;
+    font-family: RobotoR;
+
+    @media all and (max-width: 440px)
+    {
+      font-size: 30px;
+      padding: 0 28px;
+    }
+  }
+}
+
+footer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a.creator {
+    font-family: RobotoB;
+    font-size: 35px;
+    color:#525252;
+    display: flex;
+
+    span {
+      color:inherit;
+      margin: 0 10px;
+    }
+
+    &::before {
+      content: "";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url("../image/insta.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
