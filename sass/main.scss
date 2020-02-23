@@ -1,305 +1,276 @@
+@import "fonts";
+@import "mixins";
+@import "variables";
+@import "animation";
 
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  color:white;
-  font-family: RobotoR;
+  list-style: none;
+  text-transform: none;
 }
 
-body {
-  background-color: white;
-  background-image: url(../image/backgroundS.svg);
-  background-size: cover;
-  width: 100%;
-  background-repeat: repeat-y;
-  height: auto;
+      body {
+          background: #FFFADF;
+          font-family: BravaR;
+          overflow: hidden;
 
-  @media screen and (max-width: 840px)
-  {
-    background-image: url(../image/backgroundMobile.svg);
-  }
-}
+          .bg-preloader {
+            position: fixed;
+            top:0;
+            left: 0;
+            @include size(100%, 100%);
+            background: $bodyColor;
+            z-index: 999;
+            visibility: visible;
+            opacity: 1;
+            transition: 1s;
 
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+            .preloader {
+              position: absolute;
+              @include size(45vw, 40vw);
+              top:50%;
+              left:50%;
+              transform: translate(-45%,-50%);
+              background: url(../image/preloader.png) no-repeat;
+              background-size: contain;
+            }
 
-  .row {
-    width: auto;
-    min-width: 400px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+            &.done {
+              visibility: hidden;
+              opacity: 0;
+            }
+          }
 
-    @media screen and (max-width: 440px)
-    {
-      min-width: 250px;
-    }
 
-    .card {
-      position: relative;
-      display: flex;
-      justify-content: flex-end;
-      align-items: flex-start;
-      flex-direction: column;
-      width: 400px;
-      height: 500px;
-      background-color: grey;
-      z-index: 1;
-      border-radius: 20px;
-      margin: 10px;
-      box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
-      background-size: contain;
+          section {
+            @include flex();
+            margin-top: -3.5vw;
 
-      @media screen and (max-width: 840px)
-      {
-        margin: 20px;
+            @media screen and (max-width: 1024px) {
+              margin-top: 0;
+            }
+
+          }
+
+          .contanier {
+            @include size(39vw, 45vw);
+
+              transform: translate(-50%, 10%);
+              perspective: 2500px;
+
+              @media screen and (max-width: 1024px) {
+                transform: translate(0%, 0%);
+                @include size(100vw, 100vh);
+
+
+
+                .zero {
+                  display: none;
+                }
+                .bookbg {
+                  display: none;
+                }
+              }
+
+              .bookbg {
+                margin-left: -5%;
+                margin-top: -2%;
+                width: 215%;
+                height: 110%;
+                background:  url(../image/bgBook.png) no-repeat;
+                background-size: contain;
+                position: absolute;
+                top: 0;
+                left: 0;
+
+              }
+
+              .zero {
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                background: url(../image/bgLeftPc.png) no-repeat;
+                background-size: cover;
+                position: absolute;
+                left: .05%;
+
+              }
+
+              .cover {
+                @include size(100%, 100%);
+                  position: absolute;
+
+                  transform: rotateY(180deg);
+                  transform-style: preserve-3d;
+                  transform-origin: right;
+
+                  @media screen and (max-width: 1024px) {
+                    margin-left: -100vw;
+                  }
+
+                  .front, .back {
+                      display: block;
+                      position: absolute;
+                      width: 100%;
+                      height: 100%;
+                      backface-visibility: hidden;
+                  }
+
+                  .front {
+                    background: url(../image/bgLeftPc.png) no-repeat;
+                    background-size: cover;
+                  }
+
+                  .back {
+                    background: url(../image/bgRightPc.png) no-repeat;
+                      transform: rotateY(180deg);
+                      background-size: cover;
+
+                  }
+              }
+
+              .controls {
+                  position: absolute;
+                  z-index: 1000;
+                  width: 78vw;
+
+                  @media screen and (max-width: 1024px)
+                  {
+                    height: 100vh;
+                    @include flex(center, flex-end);
+
+                  }
+
+                  .unvisibleControls {
+                    @include flex(space-between);
+                    @include size(96vw, 45vw);
+                    margin-left: -8vw;
+
+                    @media screen and (max-width: 1024px)
+                    {
+                      @include size(100vw, 5vh);
+                      @include flex(space-around);
+                      background: $mainColor;
+
+                      margin-left: 11vw;
+
+                      position: fixed;
+
+                    }
+
+
+
+                    .Pagerbtn1 {
+                      @include size(5vw, 5vw);
+                      background-color: rgba(255, 255, 255, .1);
+                      border: none;
+
+                      @include flex(center, center);
+
+                      color: rgba(0, 0, 0, .5);
+
+                      transition: .3s ease-in-out;
+
+                      &:hover {
+                        cursor: pointer;
+                        background-color: rgba(255, 255, 255, .5);
+                      }
+
+                    }
+
+                    .Pagerbtn2 {
+                      @extend .Pagerbtn1;
+                    }
+                  }
+
+                  ul {
+                    @include size(10vw, auto);
+                    background: #FFF5E7;
+                    position: absolute;
+                    top:0;
+                    left: 0;
+                    height: 35vw;
+                    margin-top: -1vw;
+                    margin-left: 1.5vw;
+
+                    font-size: 2vw;
+                    color: $mainColor;
+
+                    transition: .3s ease-in-out;
+
+                    @media screen and (max-width: 1024px) {
+                      left:80vw;
+
+                      background-color: rgba(0,0,0,0);
+
+                      &:hover li {
+                        visibility: visible;
+                        opacity: 1;
+                      }
+                    }
+
+                    .btn {
+
+                      display: none;
+
+                      @media screen and (max-width: 1024px)
+                      {
+                        display: block;
+                        @include size(60px, 60px);
+                        background: #000;
+                    }
+
+                  }
+
+                    li {
+
+                      transition: .3s ease-in-out;
+
+
+                      @media screen and (max-width: 1024px) {
+                        visibility: hidden;
+                        opacity: 0;
+                      }
+
+                    &.logo {
+                      margin-top: 3vw;
+                      width: 100%;
+                      height: 4vw;
+                      background: url(../image/logo.png) no-repeat;
+                      background-size: contain;
+                      background-position: center;
+                    }
+
+                    & p {
+                      font-size: .5vw;
+                    }
+
+                    &.social {
+                      font-size: .5vw;
+                    }
+
+                    }
+
+                    button {
+                      width: 100%;
+                      @include flex();
+                      background-color: rgba(0,0,0,0);
+                      border: none;
+
+                      cursor: pointer;
+
+                    }
+
+                  }
+
+                  button {
+                    padding: 0 25px;
+                  }
+              }
+
+
+          }
+
       }
-      @media screen and (max-width: 440px)
-      {
-        width: 250px;
-        height: 400px;
-      }
-    }
-
-    .sass,
-    .html, .htmlcss, .js {
-      animation: rotatecard 3s ease-in-out infinite;
-    }
-
-  .html {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FF89F3 66.13%);
-    transition: .7s;
-  }
-
-  .html:hover, .sass:hover, .htmlcss:hover, .js:hover {
-    transition: .7s;
-    transform: scale(1.05,1.05);
-    animation: hover .4s ease-in-out;
-  }
-
-  .html:hover {
-    background-color: #FFC691;
-  }
-
-
-
-  @keyframes hover
-  {
-    0% {
-      transform: scale(1);
-    }
-    100% {
-      transform: scale(1.05);
-    }
-  }
-
-  @keyframes rotatecard {
-    0% {
-      transform: rotateZ(-1deg);
-    }
-    50% {
-      transform: rotateZ(1deg);
-    }
-    100% {
-      transform: rotateZ(-1deg);
-    }
-  }
-
-  .css {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #AC8DFF 66.13%);
-    transition: .3s;
-  }
-
-  .css:hover, .sass:hover {
-    background-color: #FF89F3;
-    animation: hover .4s ease-in-out;
-    transform: scale(1.05, 1.05);
-  }
-
-  .htmlcss {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #8DBBFF 66.13%);
-    transition: .3s;
-  }
-
-  .htmlcss:hover, .js:hover {
-    background-color: #AC8DFF;
-  }
-
-  .sass {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #8DBBFF 66.13%);
-    transition: .3s;
-  }
-
-  .bootstrap {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #AC8DFF 66.13%);
-    transition: .3s;
-
-    &:hover {
-      background-color: #FFC691;
-      transition: .5s;
-      transform: scale(1.05,1.05);
-    }
-  }
-
-  .js {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FF89F3 66.13%);
-    transition: .3s;
-  }
-
-  }
-
-  .another_card {
-    position: relative;
-    width: 45vw;
-    min-width: 400px;
-    height: 170px;
-    background-color: grey;
-    border-radius: 20px;
-    margin: 30px 0 30px 0;
-    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
-    background-size: contain;
-    background: linear-gradient(90deg, #FFAED0 40%, rgba(255,198,145,.3) 90%);
-    transition: .3s;
-    @media screen and (max-width: 440px)
-    {
-      min-width: 250px;
-    }
-
-    &:hover {
-      transition: .5s;
-      transform: rotate(2deg);
-      background-color: rgba(255,198,145,1);
-    }
-
-    h2 {
-      margin: 20px 0 0;
-    }
-
-    p.description {
-      margin: 0 inherit -10px;
-    }
-  }
-  .number {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: white;
-  color: #525252;
-  box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  width: 50px;
-  height: 50px;
-  margin: -10px -10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: RobotoB;
-  font-size: 25px;
-  animation: go 3s ease-in-out infinite;
-  }
-
-  @keyframes go {
-    0% {
-      transform: scale(1);
-    }
-
-    66% {
-      transform: scale(1.1);
-    }
-
-    100% {
-      transform: scale(1);
-    }
-  }
-
-  p.description {
-    padding: 0 40px 40px;
-    font-family: RobotoL;
-    font-size: 20px;
-
-    @media all and (max-width: 440px)
-    {
-      padding: 0 30px 30px;
-    }
-  }
-
-  h2 {
-    padding: 0 37px;
-    font-size: 60px;
-    font-family: RobotoR;
-
-    @media all and (max-width: 440px)
-    {
-      font-size: 30px;
-      padding: 0 28px;
-    }
-  }
-}
-
-footer {
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  a.creator {
-    font-family: RobotoB;
-    font-size: 35px;
-    color:#525252;
-    display: flex;
-    border-radius: 20px;
-    padding: 10px 10px 10px 10px;
-    transition: .5s;
-
-  @media screen and (max-width: 600px)
-  {
-    font-size: 20px;
-    padding: 5px 5px 5px 5px;
-  }
-
-  @media screen and (max-width: 300px)
-  {
-    font-size: 15px;
-    padding: 5px 5px 5px 5px;
-  }
-
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 3px 0 rgba(0, 0, 0, .3);
-  }
-
-    span {
-      color:inherit;
-      margin: 0 10px;
-    }
-
-    &::before {
-      content: "";
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-image: url("../image/insta.svg");
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 40px;
-      height: 40px;
-
-      @media screen and (max-width: 600px)
-      {
-        width: 25px;
-        height: 25px;
-      }
-      @media screen and (max-width: 300px)
-      {
-        width: 20px;
-        height: 20px;
-      }
-    }
-  }
-}
