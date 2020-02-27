@@ -1,0 +1,559 @@
+@import "fonts";
+@import "mixins";
+@import "variables";
+@import "animation";
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  text-transform: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: rgba(0,0,0,0);
+  cursor: pointer;
+}
+
+      body {
+          background: #FFFADF;
+          font-family: BravaR;
+          overflow: hidden;
+
+          .bg-preloader {
+            position: fixed;
+            top:0;
+            left: 0;
+            @include size(100%, 100%);
+            background: $bodyColor;
+            z-index: 999;
+            visibility: visible;
+            opacity: 1;
+            transition: 1s;
+
+            .preloader {
+              position: absolute;
+              @include size(45vw, 40vw);
+              top:50%;
+              left:50%;
+              transform: translate(-45%,-50%);
+              background: url(../image/preloader.png) no-repeat;
+              background-size: contain;
+            }
+
+            &.done {
+              visibility: hidden;
+              opacity: 0;
+            }
+          }
+
+
+          section {
+            @include flex();
+            margin-top: -3.5vw;
+
+            @media screen and (max-width: 1024px) {
+              margin-top: 0;
+            }
+
+          }
+
+          .contanier {
+            @include size(39vw, 45vw);
+
+              transform: translate(-50%, 10%);
+              perspective: 2500px;
+
+              @media screen and (max-width: 1024px) {
+                transform: translate(1%, 0%);
+                padding-top: 10vw;
+                @include size(98vw, 100vh);
+
+                .logos {
+                  display: none;
+
+
+                  @media screen and (max-width: 1024px) {
+                    @include flex(space-between);
+                    width: 24.4vw;
+                    position: absolute;
+                    top:1vw;
+                    left:0;
+
+                    a {
+                      @include flex();
+                      width:9vw;
+                      height:8vw;
+                      transition: .3s ease;
+
+                      &.twitter {
+                         background: url(../image/twitter.svg) no-repeat;
+                         background-size: contain;
+
+                         &:hover {
+                           background: url(../image/twitter-hover.svg) no-repeat;
+                           background-size: contain;
+                         }
+                      }
+
+                      &.facebook {
+                         background: url(../image/facebook.svg) no-repeat;
+                         background-size: contain;
+
+                         &:hover {
+                           background: url(../image/facebook-hover.svg) no-repeat;
+                           background-size: contain;
+                         }
+                      }
+
+                      &.instagram {
+                         background: url(../image/instagram.svg) no-repeat;
+                         background-size: contain;
+
+                         &:hover {
+                           background: url(../image/instagram-hover.svg) no-repeat;
+                           background-size: contain;
+                         }
+                      }
+                    }
+                  }
+                }
+
+
+
+                .zero {
+                  display: none;
+                }
+                .bookbg {
+                  display: none;
+                }
+
+              }
+
+              .bookbg {
+                margin-left: -5%;
+                margin-top: -2%;
+                width: 215%;
+                height: 110%;
+                background:  url(../image/bgBook.png) no-repeat;
+                background-size: contain;
+                position: absolute;
+                top: 0;
+                left: 0;
+                @media screen and (max-width: 1024px) {
+
+
+                }
+
+              }
+
+              .zero {
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                background: url(../image/bgLeftPc.png) no-repeat;
+                background-size: cover;
+                position: absolute;
+                left: .05%;
+
+              }
+
+              .cover {
+                @include size(100%, 100%);
+                  position: absolute;
+
+                  transform: rotateY(180deg);
+                  transform-style: preserve-3d;
+                  transform-origin: right;
+
+                  @media screen and (max-width: 1024px) {
+                    margin-left: -100vw;
+                  }
+
+                  .front, .back {
+                      display: block;
+                      position: absolute;
+                      width: 100%;
+                      height: 100%;
+                      backface-visibility: hidden;
+                  }
+
+                  .front {
+                    background: url(../image/bgLeftPc.png) no-repeat;
+                    background-size: cover;
+                  }
+
+                  .back {
+                    background: url(../image/bgRightPc.png) no-repeat;
+                      transform: rotateY(180deg);
+                      background-size: cover;
+
+                  }
+              }
+
+              .controls {
+                  position: absolute;
+                  z-index: 1000;
+                  width: 78vw;
+
+                  @media screen and (max-width: 1024px)
+                  {
+                    height: 100vh;
+                    @include flex(center, flex-end);
+
+                  }
+
+                  .unvisibleControls {
+                    @include flex(space-between);
+                    @include size(96vw, 45vw);
+                    margin-left: -8vw;
+
+                    @media screen and (max-width: 1024px)
+                    {
+                      @include size(100vw, 5vh);
+                      @include flex(space-around);
+                      background: $mainColor;
+
+                      margin-left: 11vw;
+
+                      position: fixed;
+
+                    }
+
+
+
+                    .Pagerbtn1 {
+                      @include size(1vw, 3vw);
+                      background: url(../image/Next.svg) no-repeat;
+                      background-size: contain;
+
+                      border: none;
+                      outline: 0;
+
+                      @include flex(center, center);
+
+                      color: rgba(0, 0, 0, .5);
+
+                      transition: .3s ease-in-out;
+
+                      &:hover {
+                        cursor: pointer;
+                        background: url(../image/Next-hover.svg) no-repeat;
+                        transform: translateX(.5vw);
+                        background-size: contain;
+                      }
+
+                    }
+
+                    .Pagerbtn2 {
+                      @extend .Pagerbtn1;
+                      background: url(../image/Previous.svg) no-repeat;
+                      background-size: contain;
+
+
+                      &:hover {
+                        cursor: pointer;
+                        background: url(../image/Previous-hover.svg) no-repeat;
+                        transform: translateX(-.5vw);
+                        background-size: contain;
+
+
+                      }
+                    }
+                  }
+
+                  ul {
+                    @include size(9vw, auto)
+                    @include flex(flex-start, flex-start, column);
+
+                    background-color: #FFF5E7;
+
+                    border-top-right-radius: .7vw;
+                    border-top-left-radius: .7vw;
+                    border: solid $barBorder transparent;
+                    background-clip: padding-box;
+
+                    position: absolute;
+                    top:0;
+                    left: 0;
+
+                    margin-top: -1vw;
+                    margin-left: 1.5vw;
+                    padding-top: 6vw;
+
+                    font-family: BravaL;
+                    color: $mainColor;
+
+                    transition: .3s ease-in-out;
+
+                    @media screen and (max-width: 1024px) {
+                      margin-top: -11vw;
+
+                      align-items: center;
+
+                      left:55vw;
+                      background-image: none;
+                      width: 30vw;
+                      height: 23vw;
+
+                      border: solid .3vw transparent;
+
+                      transition: .2s ease-in-out;
+
+
+
+                      &:hover {
+                        height: 65vh;
+                      }
+
+                      &:hover li {
+                        visibility: visible;
+                        opacity: 1;
+
+                        transition: .3s ease-in-out;
+
+                      }
+
+                      &:hover .btn {
+                        visibility: hidden;
+                        opacity: 0;
+
+                        transform: scale(.9);
+                      }
+
+
+                    }
+
+                    &:before {
+                      content: '';
+                      position: absolute;
+                      top: 0; right: 0; bottom: 0; left: 0;
+                      z-index: -1;
+                      margin: -$barBorder; /* !importanté */
+                      border-radius: inherit; /* !importanté */
+                      background: linear-gradient(to top, #4B3B00 0%, #FFFDF5 80%);
+
+                      @media screen and (max-width: 1024px) {
+                        margin: -.3vw;
+                      }
+
+                    }
+
+
+
+
+                    .logo {
+                      width: 100%;
+                      height: 7vw;
+
+                      background: url(../image/logoWithBg.svg) no-repeat;
+                      background-size: contain;
+
+                      position: absolute;
+                      top:0;
+                      left:0;
+
+                      @media screen and (max-width: 1024px) {
+                        height: 25vw;
+                      }
+                    }
+
+                    .btn {
+
+                      display: none;
+
+                      @media screen and (max-width: 1024px)
+                      {
+                        display: block;
+                        position: absolute;
+
+                        background: url(../image/burger.svg) no-repeat;
+                        background-size: contain;
+
+                        margin-top: 15vw;
+
+                        @include size(7vw, 7vw);
+                        transition: .1s ease-in-out;
+
+                    }
+
+                  }
+
+                    li {
+                      margin-top: 1.5vw;
+                      transition: .3s ease-in-out;
+
+
+                      @media screen and (max-width: 1024px) {
+                        visibility: hidden;
+                        opacity: 0;
+
+                        transform: translateY(18vw);
+
+                        margin-top: 2.8vh;
+
+                        transition: .1s ease-in-out;
+
+                      }
+
+                      &:nth-child(11) {
+                        margin-top: 3vw;
+
+                        @media screen and (max-width: 1024px) {
+                          margin-top: 4vh;
+                        }
+                      }
+
+                    p {
+                      padding-left: .3vw;
+                      padding-right: .3vw;
+
+                      font-size: .7vw;
+                      color:$menuColor;
+                      text-align: center;
+
+                      @media screen and (max-width: 1024px) {
+                        font-size: 1.2vh;
+                      }
+
+                      a {
+                        color: inherit;
+                        text-decoration: underline;
+                      }
+                    }
+
+                    &.social {
+                      @include flex(space-around);
+                      @include size(100%);
+
+                      border-top: $barBorder solid $mainColor;
+
+                      margin-top: 0;
+                      padding-top: .7vw;
+                      padding-bottom: .7vw;
+
+                      a {
+                      @include flex();
+                      @include size(2vw, 2.1vw);
+
+                      transition: .3s ease;
+
+                      &.twitter {
+                         background: url(../image/twitter.svg) no-repeat;
+                         background-size: contain;
+                         margin-left: 15%;
+
+                         &:hover {
+                           background: url(../image/twitter-hover.svg) no-repeat;
+                           background-size: contain;
+                         }
+                      }
+
+                      &.facebook {
+                         background: url(../image/facebook.svg) no-repeat;
+                         background-size: contain;
+
+                         &:hover {
+                           background: url(../image/facebook-hover.svg) no-repeat;
+                           background-size: contain;
+                         }
+                      }
+
+                      &.instagram {
+                         background: url(../image/instagram.svg) no-repeat;
+                         background-size: contain;
+                         margin-right: 15%;
+
+
+                         &:hover {
+                           background: url(../image/instagram-hover.svg) no-repeat;
+                           background-size: contain;
+                         }
+                      }
+                    }
+
+
+
+                      @media screen and (max-width: 1024px) {
+                        display: none;
+                      }
+                    }
+
+                    }
+
+                    button {
+                      @include flex();
+                      position: relative;
+                      width: 100%;
+
+                      font-size: .9vw;
+
+                      font-family: BravaL;
+
+                      transition: .3s ease-in-out;
+
+                      @media screen and (max-width: 1024px) {
+                        align-items: flex-start;
+                        font-size: 1.8vh;
+
+                        width: 27vw;
+
+                        justify-content: flex-start;
+
+                        padding: 0;
+                      }
+
+                      @media screen and (min-width: 1025px) {
+
+                        &:before {
+                          content: '';
+                          position: absolute;
+                          top:0; left:0;
+
+                          @include size(1vw,1.1vw);
+                          background: url(../image/BarTextHoverIcon.svg) no-repeat;
+                          background-size: cover;
+
+                          margin-top: -.1vw;
+                          margin-left: .3vw;
+
+                          visibility: hidden;
+                          opacity: 0;
+
+                          transition: .2s;
+                        }
+
+                        &:hover, &:before {
+                          transform: scale(1.1);
+                          margin-left: .5vw;
+                          color: $mainColor;
+                        }
+
+                        &:hover:before, &:active:before{
+                          visibility: visible;
+                          opacity: 1;
+                          margin-left: .5vw;
+
+
+                        }
+
+                    }
+
+                    }
+
+                  }
+
+                  button {
+                    padding: 0 25px;
+                    color: $menuColor;
+
+                  }
+              }
+
+
+          }
+
+      }
