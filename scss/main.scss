@@ -1,7 +1,7 @@
 @import "fonts";
 @import "mixins";
 @import "variables";
-@import "animation";
+//@import "animation";
 
 * {
   margin: 0;
@@ -53,10 +53,13 @@ button {
 
           section {
             @include flex();
-            margin-top: -3.5vw;
+            margin-top: -2.5vw;
+            margin-left: -2.5vw;
 
             @media screen and (max-width: 1024px) {
-              margin-top: 0;
+              margin-top: 5vw;
+              margin-left: 0;
+
             }
 
           }
@@ -78,15 +81,15 @@ button {
 
                   @media screen and (max-width: 1024px) {
                     @include flex(space-between);
-                    width: 24.4vw;
+                    width: 42vw;
                     position: absolute;
-                    top:1vw;
+                    top:-4.2vw;
                     left:0;
 
                     a {
                       @include flex();
-                      width:9vw;
-                      height:8vw;
+                      width:14vw;
+                      height:14vw;
                       transition: .3s ease;
 
                       &.twitter {
@@ -211,15 +214,19 @@ button {
                     @include size(96vw, 45vw);
                     margin-left: -8vw;
 
+
                     @media screen and (max-width: 1024px)
                     {
-                      @include size(100vw, 5vh);
+                      @include size(100vw, 15vh);
                       @include flex(space-around);
-                      background: $mainColor;
+                      background: $bodyColor;
 
-                      margin-left: 11vw;
+                      border-top: .3vw solid #69442A;
 
+                      margin-left: 9.029vw;
                       position: fixed;
+
+                      top: 85vh;
 
                     }
 
@@ -229,6 +236,7 @@ button {
                       @include size(1vw, 3vw);
                       background: url(../image/Next.svg) no-repeat;
                       background-size: contain;
+                      background-position: center;
 
                       border: none;
                       outline: 0;
@@ -239,11 +247,25 @@ button {
 
                       transition: .3s ease-in-out;
 
+                      @media screen and (max-width: 1024px) {
+                        @include size(3vh, 6vh);
+                        margin-top: -2vh;
+                      }
+
                       &:hover {
                         cursor: pointer;
                         background: url(../image/Next-hover.svg) no-repeat;
-                        transform: translateX(.5vw);
                         background-size: contain;
+
+                        @media screen and (min-width: 1025px)
+                        {
+                          background-position: center;
+                        }
+
+                        @media screen and (max-width: 1024px) {
+                          transform: translateX(.5vw);
+                          transform: translateX(3vw);
+                        }
                       }
 
                     }
@@ -252,13 +274,21 @@ button {
                       @extend .Pagerbtn1;
                       background: url(../image/Previous.svg) no-repeat;
                       background-size: contain;
+                      background-position: center;
+
 
 
                       &:hover {
                         cursor: pointer;
                         background: url(../image/Previous-hover.svg) no-repeat;
-                        transform: translateX(-.5vw);
                         background-size: contain;
+
+                        @media screen and (min-width: 1025px)
+                        {
+                          background-position: center;
+                        }
+
+
 
 
                       }
@@ -290,7 +320,7 @@ button {
                     transition: .3s ease-in-out;
 
                     @media screen and (max-width: 1024px) {
-                      margin-top: -11vw;
+                      margin-top: -16vw;
 
                       align-items: center;
 
@@ -506,7 +536,6 @@ button {
                         padding: 0;
                       }
 
-                      @media screen and (min-width: 1025px) {
 
                         &:before {
                           content: '';
@@ -530,6 +559,9 @@ button {
                           transform: scale(1.1);
                           margin-left: .5vw;
                           color: $mainColor;
+                          @media screen and (max-width: 1024px) {
+                            margin-left: 5vw;
+                          }
                         }
 
                         &:hover:before, &:active:before{
@@ -537,10 +569,14 @@ button {
                           opacity: 1;
                           margin-left: .5vw;
 
+                          @media screen and (max-width: 1024px) {
+                            visibility: hidden;
+                          }
+
 
                         }
 
-                    }
+
 
                     }
 
