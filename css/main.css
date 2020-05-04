@@ -1,1 +1,1828 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}a{background:transparent}img{border-style:none}input{font:100%/1.15 inherit;margin:0;overflow:visible}[type=submit]{-webkit-appearance:button}[type=submit]::-moz-focus-inner{border-style:none;padding:0}[type=submit]:-moz-focusring{outline:1px dotted ButtonText}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:300 .833vw Roboto,sans-serif;background:radial-gradient(70.39% 93.9% at -.58% 10.19%,#4410c1 0,#270970 100%)}body{scroll-behavior:smooth}input,input:active,input:focus{outline:none;border:none;font-family:inherit}a{text-decoration:none}a,h1,h2,h3,h4,p{transition:.5s ease}h1,h2,h3,h4,p{margin:0;padding:0}h1,h2{font-weight:700;font-size:4rem;color:#fbfdff;margin:2rem 0}h3{font-size:2rem}h3,h4{font-weight:500;color:#fbfdff}h4{font-size:3rem}p{font-weight:300;font-size:2rem;color:#c3aaff;margin-top:1rem}.row,header .wrapper nav,main .wrapper,section#clients .wrapper,section#contacts .wrapper,section#devOpsTool .wrapper{width:82rem}.logo{width:12rem}.btn{font-weight:500;font-size:1.5rem;padding:.8rem 3rem;background:#512da8;color:#fff;border-radius:3rem;box-shadow:2px 4px 4px rgba(0,0,0,.12);transition:.5s ease}.btn:hover{background:#c3aaff}address{display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row}address a{display:block;width:2rem;height:2rem}.hooks a:active,.hooks a:hover,.navigation a:active,.navigation a:hover{-webkit-transform:translateY(-.15rem);-ms-transform:translateY(-.15rem);transform:translateY(-.15rem);color:#c3aaff!important}main .animationZone .frame span{-webkit-transform:translateX(-5rem);-ms-transform:translateX(-5rem);transform:translateX(-5rem);opacity:0}.flow{-webkit-animation:5s ease-in-out upToDown infinite forwards;animation:5s ease-in-out upToDown infinite forwards}header{display:-ms-flexbox;display:flex;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-align:center;align-items:center;-ms-flex-direction:column;flex-direction:column;background:#fbfdff;width:100%;height:9.5rem}header .row,header .wrapper nav{padding:1rem 0}header .row,header .row address,header .wrapper nav{display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row}header .row address{width:9rem}header .row address a{display:block;width:2rem;height:2rem}header .row address a.eMail{background:url(../images/icons/eMail.svg) no-repeat;background-size:contain}header .row address a.location{background:url(../images/icons/location.svg) no-repeat;background-size:contain}header .row address a.telegram{background:url(../images/icons/telegram.svg) no-repeat;background-size:contain}header .wrapper{background:#eae8f6;width:100%;-ms-flex-pack:center;justify-content:center;z-index:999}header .wrapper,header .wrapper nav{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row}header .wrapper nav{-ms-flex-pack:justify;justify-content:space-between;padding:.5rem 0}header .wrapper nav .btn-menu{display:none}header .wrapper nav .hooks{display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row;width:44rem}header .wrapper nav .hooks a{color:#512da8;font-weight:400;font-size:1.5rem}main{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:start;align-items:flex-start;-ms-flex-direction:row;flex-direction:row;width:100%;height:100vh;background:url(../../images/bg.svg) no-repeat;background-size:cover;position:relative;overflow:hidden;z-index:1}main .wrapper{margin-top:3.5rem}main .wrapper .card{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:start;align-items:flex-start;-ms-flex-direction:column;flex-direction:column}main .wrapper .card span p{width:37rem}main .wrapper .card .btn{margin-top:2rem}main .animationZone{position:absolute;height:100vh;width:50%;background:#3e1d8f;left:100%;transition:.5s ease}main .animationZone .scrollIndicator{position:absolute;height:100vh;width:.5rem;background:#fbfdff;top:0;left:0}main .animationZone .scrollIndicator .indicator{position:absolute;top:0;left:0;width:105%;height:0;background:#512da8;transition:.3s ease}main .animationZone .circles{display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-align:center;align-items:center;-ms-flex-direction:column;flex-direction:column;height:5rem;position:absolute;left:96%;top:48%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}main .animationZone .circles span{width:1rem;height:1rem;border-radius:100%;background:#fbfdff}main .animationZone .frame{position:absolute;width:100%;height:100%}main .animationZone .frame span{position:absolute;top:5.5rem;left:5.5rem;transition:.3s ease-in-out}main .animationZone .frame span.alerting24 h4{width:33rem!important}main .animationZone .frame span.alerting24 p{width:21rem}main .animationZone .frame span.delivery h4{width:auto!important}main .animationZone .frame span.delivery p{width:25rem}main .animationZone .frame span h4{width:19rem}main .animationZone .frame .firstAnimImage{position:absolute;width:100%;height:67.5rem;left:8rem;top:0}main .animationZone .frame .secondAnimImage{position:absolute;width:100%;left:8rem;top:3rem}main .animationZone .frame .thirdAnimImage{position:absolute;width:100%;top:0;left:3rem}.space{width:100%;height:900vh}section.whatWeDo{-ms-flex-direction:row;flex-direction:row;margin-top:2rem;width:100%;z-index:2}section.whatWeDo,section.whatWeDo .wrapper{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}section.whatWeDo .wrapper,section.whatWeDo .wrapper .row.first span{-ms-flex-direction:column;flex-direction:column}section.whatWeDo .wrapper .row.first span{display:-ms-flexbox;display:flex;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-align:start;align-items:flex-start}section.whatWeDo .wrapper .row.second{margin-top:15rem}section.whatWeDo .wrapper .row.second span{display:-ms-flexbox;display:flex;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-align:end;align-items:flex-end;-ms-flex-direction:column;flex-direction:column}section.whatWeDo .wrapper .row h3,section.whatWeDo .wrapper .row p{width:30rem}section.whatWeDo object{position:absolute;width:100%;height:56rem;z-index:-1}section#devOpsTool{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row;margin-top:20rem}section#devOpsTool .wrapper{display:-ms-flexbox;display:flex;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-align:start;align-items:flex-start;-ms-flex-direction:column;flex-direction:column}section#devOpsTool .wrapper p{width:54rem}section#devOpsTool .wrapper .row{display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row;margin-top:8rem;width:60rem;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex:1;flex:1}section#devOpsTool .wrapper .row span{margin-top:4rem}section#devOpsTool .wrapper .row span h3{width:26rem}section#devOpsTool .wrapper .row span p{width:23rem}section#devOpsTool .background3{width:91rem;height:100rem;position:absolute;display:block;margin:0 auto;z-index:-1}section#clients{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row;margin-top:20rem}section#clients .wrapper{display:-ms-flexbox;display:flex;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-align:start;align-items:flex-start;-ms-flex-direction:column;flex-direction:column}section#clients .wrapper .row{display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row;width:55rem}section#clients .wrapper .row img{width:26rem;transition:.5s ease}section#clients .background4{position:absolute;width:50rem;-webkit-transform:translate(20rem,20rem);-ms-transform:translate(20rem,20rem);transform:translate(20rem,20rem);z-index:-2}section#contacts{-ms-flex-pack:center;justify-content:center;margin-top:25rem}section#contacts,section#contacts .wrapper{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row}section#contacts .wrapper{-ms-flex-pack:justify;justify-content:space-between}section#contacts .wrapper form{display:-ms-flexbox;display:flex;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-align:start;align-items:flex-start;-ms-flex-direction:column;flex-direction:column;width:32.5rem}section#contacts .wrapper form legend h4{text-align:center;width:32.5rem}section#contacts .wrapper form input[type=name],section#contacts .wrapper form input[type=text]{background:none;width:100%;height:4.5rem;border:.25rem solid #512da8;border-radius:1.5rem;margin-top:2rem}section#contacts .wrapper form input[type=name]::-webkit-input-placeholder,section#contacts .wrapper form input[type=text]::-webkit-input-placeholder{color:#c3aaff;text-indent:1rem;font-size:1.5rem}section#contacts .wrapper form input[type=name]::-moz-placeholder,section#contacts .wrapper form input[type=text]::-moz-placeholder{color:#c3aaff;text-indent:1rem;font-size:1.5rem}section#contacts .wrapper form input[type=name]:-ms-input-placeholder,section#contacts .wrapper form input[type=name]::-ms-input-placeholder,section#contacts .wrapper form input[type=text]:-ms-input-placeholder,section#contacts .wrapper form input[type=text]::-ms-input-placeholder{color:#c3aaff;text-indent:1rem;font-size:1.5rem}section#contacts .wrapper form input[type=name]::placeholder,section#contacts .wrapper form input[type=name][placeholder],section#contacts .wrapper form input[type=text]::placeholder,section#contacts .wrapper form input[type=text][placeholder]{color:#c3aaff;text-indent:1rem;font-size:1.5rem}section#contacts .wrapper form input[type=submit]{font:500 1.5rem Roboto,sans-serif;background:#512da8;width:100%;height:4.5rem;color:#fff;border-radius:2rem;margin-top:2.5rem}section#contacts .wrapper form input[type=submit]:hover{background:#c3aaff;cursor:pointer}section#contacts .wrapper .information .social{display:-ms-flexbox;display:flex;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row;margin-top:2rem}section#contacts .wrapper .information .social a.eMail{background:url(../images/icons/eMail-white.svg) no-repeat;background-size:contain}section#contacts .wrapper .information .social a.telegram{background:url(../images/icons/telegram-white.svg) no-repeat;background-size:contain;margin-left:2rem}footer{background:#eae8f6;-ms-flex-pack:center;justify-content:center;-ms-flex-direction:column;flex-direction:column;margin-top:15rem;padding:1rem 0}footer,footer .navigation{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center}footer .navigation{-ms-flex-pack:justify;justify-content:space-between;-ms-flex-direction:row;flex-direction:row;width:44rem}footer .navigation a{font-size:1.5rem;font-weight:400;color:#512da8}footer address{display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row;width:6rem;margin-top:1rem}footer address a.eMail{background:url(../images/icons/eMail.svg) no-repeat;background-size:contain}footer address a.telegram{background:url(../images/icons/telegram.svg) no-repeat;background-size:contain}footer p{font-size:1rem;font-weight:300;color:#512da8}@media screen and (max-width:1080px){html{font-size:2vw}h3{font-size:3rem}h3,h4{font-weight:400}h4{font-size:2rem}.row,header .wrapper nav,main .wrapper,section#clients .wrapper,section#contacts .wrapper,section#devOpsTool .wrapper{width:85%}.relative{position:relative}header{height:10rem;background:#eae8f6;position:fixed;z-index:2}header .row,header .wrapper nav{-ms-flex-pack:start;justify-content:flex-start;padding:0}header .row img.logo{margin-top:2rem;width:20rem}header .row address{display:none}header .wrapper{background:none}header .wrapper nav{-ms-flex-pack:end;justify-content:flex-end;padding:0}header .wrapper nav .hooks{display:-ms-flexbox;display:flex;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-align:center;align-items:center;-ms-flex-direction:column;flex-direction:column}header .wrapper nav a.btn{display:none}main{-ms-flex-align:center;align-items:center;-ms-flex-direction:column;flex-direction:column;background:none;overflow:visible;background-color:rgba(0,0,0,.1);padding-top:10rem}main,main .animationZone{display:-ms-flexbox;display:flex;-ms-flex-pack:start;justify-content:flex-start;height:auto}main .animationZone{-ms-flex-align:start;align-items:flex-start;-ms-flex-direction:row;flex-direction:row;position:relative;background:none;width:85%;left:0;overflow:hidden;padding-bottom:10rem}main .animationZone .circles,main .animationZone .scrollIndicator{display:none}main .animationZone .frame{position:relative;height:auto}main .animationZone .frame span{position:relative;display:block;opacity:1}main .animationZone .frame span.support h4{margin-top:5rem;width:auto}main .animationZone .frame span.alerting24 h4,main .animationZone .frame span.delivery h4{margin-top:5rem}main .animationZone .frame .firstAnimImage{top:-15rem;left:10rem}main .animationZone .frame .secondAnimImage{top:0;left:11rem}main .animationZone .frame .thirdAnimImage{top:-5rem;left:12rem;display:none}.space{display:none}section.whatWeDo{margin:0;position:relative;background-color:rgba(0,0,0,.1);z-index:0;padding-bottom:10rem}section.whatWeDo .wrapper .row.first span{margin-top:5rem}section.whatWeDo .wrapper .row.first span p{width:100%}section.whatWeDo .wrapper .row.second span{margin-top:15rem}section.whatWeDo .wrapper .row.second p{width:100%}section.whatWeDo .wrapper .row h3,section.whatWeDo .wrapper .row p{width:100%;text-align:left}section.whatWeDo object{top:25rem;height:auto}section#devOpsTool{margin-top:6rem}section#devOpsTool .wrapper p{width:100%}section#devOpsTool .wrapper .row{width:100%;margin-top:4rem}section#devOpsTool .wrapper .row span{margin-top:2rem}section#devOpsTool .wrapper .row span h3,section#devOpsTool .wrapper .row span p{width:20rem;font-size:1.5rem}section#devOpsTool .background3{width:100%;top:240rem}section#clients{margin-top:25rem}section#clients .wrapper .row{width:100%}section#clients .wrapper .row img{width:48%}section#clients .background4{display:none}section#contacts{margin-top:15rem}section#contacts .wrapper{display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-align:center;align-items:center;-ms-flex-direction:column;flex-direction:column}section#contacts .wrapper form{width:100%}section#contacts .wrapper form legend h4{width:40rem}section#contacts .wrapper form input[type=name],section#contacts .wrapper form input[type=text]{border-radius:3rem;height:5rem}section#contacts .wrapper form input[type=name]::-webkit-input-placeholder,section#contacts .wrapper form input[type=text]::-webkit-input-placeholder{text-indent:3rem}section#contacts .wrapper form input[type=name]::-moz-placeholder,section#contacts .wrapper form input[type=text]::-moz-placeholder{text-indent:3rem}section#contacts .wrapper form input[type=name]:-ms-input-placeholder,section#contacts .wrapper form input[type=name]::-ms-input-placeholder,section#contacts .wrapper form input[type=text]:-ms-input-placeholder,section#contacts .wrapper form input[type=text]::-ms-input-placeholder{text-indent:3rem}section#contacts .wrapper form input[type=name]::placeholder,section#contacts .wrapper form input[type=name][placeholder],section#contacts .wrapper form input[type=text]::placeholder,section#contacts .wrapper form input[type=text][placeholder]{text-indent:3rem}section#contacts .wrapper form input[type=submit]{border-radius:3rem;height:5rem}section#contacts .wrapper .information{margin-top:5rem}.btn-menu{display:block!important;width:5.875rem;height:3.5rem;margin-top:-4rem;transition:.5s ease}.btn-menu hr{width:100%;height:.7rem;background:#512da8;border-radius:2rem;border:none;transition:.3s ease}.btn-menu hr:first-child{margin-top:0}.hooks{opacity:0;visibility:hidden;margin-top:9.5rem;padding-top:8vh;height:100vh;width:100vw!important;background:#eae8f6;position:fixed;top:0;left:0;transition:.5s ease}.hooks a{margin-bottom:5vh;font-size:5vh!important;font-weight:400!important}.hooks .social{display:block!important;width:auto}.hooks .social a{display:inline-block;height:6vh;width:6vh;background-color:red;margin-top:15%;margin-left:2vh}.hooks .social a.eMail{background:url(../images/icons/eMail.svg) no-repeat;background-size:contain}.hooks .social a.telegram{background:url(../images/icons/telegram.svg) no-repeat;background-size:contain}.hooks .social a.location{background:url(../images/icons/location.svg) no-repeat;background-size:contain}}
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font: 1em monospace, monospace;
+  /* 1 */
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font: 1em monospace, monospace;
+  /* 1 */
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font: 100%/1.15 inherit;
+  /* 1 */
+  /* 1 */
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template,
+[hidden] {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+@-webkit-keyframes upToDown {
+  from {
+    -webkit-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+  }
+
+  50% {
+    -webkit-transform: translateY(1rem);
+    transform: translateY(1rem);
+  }
+
+  to {
+    -webkit-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+  }
+}
+
+@keyframes upToDown {
+  from {
+    -webkit-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+  }
+
+  50% {
+    -webkit-transform: translateY(1rem);
+    transform: translateY(1rem);
+  }
+
+  to {
+    -webkit-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+  }
+}
+
+html {
+  font: 300 0.833vw 'Roboto', sans-serif;
+  background: radial-gradient(70.39% 93.9% at -0.58% 10.19%, #4410C1 0%, #270970 100%);
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+button:active,
+button:focus,
+input,
+input:focus,
+input:active {
+  outline: none;
+  border: none;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  transition: .5s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  transition: .5s ease;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #FBFDFF;
+  margin: 2rem 0;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 2rem;
+  color: #FBFDFF;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 3rem;
+  color: #FBFDFF;
+}
+
+p {
+  font-weight: 300;
+  font-size: 2rem;
+  color: #C3AAFF;
+  margin-top: 1rem;
+}
+
+.row,
+header .wrapper nav,
+main .wrapper,
+section#devOpsTool .wrapper,
+section#clients .wrapper,
+section#contacts .wrapper {
+  width: 82rem;
+}
+
+.logo {
+  width: 12rem;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding: .8rem 3rem;
+  background: #512DA8;
+  color: white;
+  border-radius: 3rem;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.12);
+  transition: .5s ease;
+}
+
+.btn:hover {
+  background: #C3AAFF;
+}
+
+address {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+address a {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+}
+
+.hooks a:hover,
+.hooks a:active,
+.navigation a:hover,
+.navigation a:active {
+  -webkit-transform: translateY(-0.15rem);
+  -ms-transform: translateY(-0.15rem);
+  transform: translateY(-0.15rem);
+  color: #C3AAFF !important;
+}
+
+.navFixed {
+  position: fixed;
+}
+
+.mainFixed {
+  position: fixed;
+  top: 4.5rem;
+}
+
+.offset {
+  position: absolute;
+  top: 800vh;
+}
+
+.circleActive {
+  background: #512DA8 !important;
+}
+
+.frameStay,
+main .animationZone .frame span {
+  -webkit-transform: translateX(-5rem);
+  -ms-transform: translateX(-5rem);
+  transform: translateX(-5rem);
+  opacity: 0;
+}
+
+.frameIn {
+  -webkit-transform: translateX(0) !important;
+  -ms-transform: translateX(0) !important;
+  transform: translateX(0) !important;
+  opacity: 1 !important;
+}
+
+.frameOut {
+  -webkit-transform: translateX(5rem) !important;
+  -ms-transform: translateX(5rem) !important;
+  transform: translateX(5rem) !important;
+  opacity: 0 !important;
+}
+
+.flow {
+  -webkit-animation: 5s ease-in-out upToDown infinite forwards;
+  animation: 5s ease-in-out upToDown infinite forwards;
+}
+
+.unvisible {
+  opacity: 0 !important;
+  -webkit-transform: translateX(-6rem) !important;
+  -ms-transform: translateX(-6rem) !important;
+  transform: translateX(-6rem) !important;
+}
+
+.show {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.burgerRotate .a {
+  -webkit-transform: rotate(-45deg) translate(-1rem, 0.7rem);
+  -ms-transform: rotate(-45deg) translate(-1rem, 0.7rem);
+  transform: rotate(-45deg) translate(-1rem, 0.7rem);
+}
+
+.burgerRotate .c {
+  -webkit-transform: rotate(45deg) translate(-1rem, -0.7rem);
+  -ms-transform: rotate(45deg) translate(-1rem, -0.7rem);
+  transform: rotate(45deg) translate(-1rem, -0.7rem);
+}
+
+.burgerRotate .b {
+  opacity: 0;
+}
+
+.burgerRotate {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #FBFDFF;
+  width: 100%;
+  height: 9.5rem;
+}
+
+header .row,
+header .wrapper nav,
+header main .wrapper,
+main header .wrapper,
+header section#devOpsTool .wrapper,
+section#devOpsTool header .wrapper,
+header section#clients .wrapper,
+section#clients header .wrapper,
+header section#contacts .wrapper,
+section#contacts header .wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 1rem 0;
+}
+
+header .row address,
+header .wrapper nav address,
+header main .wrapper address,
+main header .wrapper address,
+header section#devOpsTool .wrapper address,
+section#devOpsTool header .wrapper address,
+header section#clients .wrapper address,
+section#clients header .wrapper address,
+header section#contacts .wrapper address,
+section#contacts header .wrapper address {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 9rem;
+}
+
+header .row address a,
+header .wrapper nav address a,
+header main .wrapper address a,
+main header .wrapper address a,
+header section#devOpsTool .wrapper address a,
+section#devOpsTool header .wrapper address a,
+header section#clients .wrapper address a,
+section#clients header .wrapper address a,
+header section#contacts .wrapper address a,
+section#contacts header .wrapper address a {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+}
+
+header .row address a.eMail,
+header .wrapper nav address a.eMail,
+header main .wrapper address a.eMail,
+main header .wrapper address a.eMail,
+header section#devOpsTool .wrapper address a.eMail,
+section#devOpsTool header .wrapper address a.eMail,
+header section#clients .wrapper address a.eMail,
+section#clients header .wrapper address a.eMail,
+header section#contacts .wrapper address a.eMail,
+section#contacts header .wrapper address a.eMail {
+  background: url(../images/icons/eMail.svg) no-repeat;
+  background-size: contain;
+}
+
+header .row address a.location,
+header .wrapper nav address a.location,
+header main .wrapper address a.location,
+main header .wrapper address a.location,
+header section#devOpsTool .wrapper address a.location,
+section#devOpsTool header .wrapper address a.location,
+header section#clients .wrapper address a.location,
+section#clients header .wrapper address a.location,
+header section#contacts .wrapper address a.location,
+section#contacts header .wrapper address a.location {
+  background: url(../images/icons/location.svg) no-repeat;
+  background-size: contain;
+}
+
+header .row address a.telegram,
+header .wrapper nav address a.telegram,
+header main .wrapper address a.telegram,
+main header .wrapper address a.telegram,
+header section#devOpsTool .wrapper address a.telegram,
+section#devOpsTool header .wrapper address a.telegram,
+header section#clients .wrapper address a.telegram,
+section#clients header .wrapper address a.telegram,
+header section#contacts .wrapper address a.telegram,
+section#contacts header .wrapper address a.telegram {
+  background: url(../images/icons/telegram.svg) no-repeat;
+  background-size: contain;
+}
+
+header .wrapper {
+  background: #EAE8F6;
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  z-index: 999;
+}
+
+header .wrapper nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: .5rem 0;
+}
+
+header .wrapper nav .btn-menu {
+  display: none;
+}
+
+header .wrapper nav .hooks {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 44rem;
+}
+
+header .wrapper nav .hooks a {
+  color: #512DA8;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+main {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  background: url(../../images/bg.svg) no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+main .wrapper {
+  margin-top: 3.5rem;
+}
+
+main .wrapper .card {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+main .wrapper .card span p {
+  width: 37rem;
+}
+
+main .wrapper .card .btn {
+  margin-top: 2rem;
+}
+
+main .animationZone {
+  position: absolute;
+  height: 100vh;
+  width: 50%;
+  background: #3E1D8F;
+  left: 100%;
+  transition: .5s ease;
+}
+
+main .animationZone .scrollIndicator {
+  position: absolute;
+  height: 100vh;
+  width: .5rem;
+  background: #FBFDFF;
+  top: 0;
+  left: 0;
+}
+
+main .animationZone .scrollIndicator .indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 105%;
+  height: 0;
+  background: #512DA8;
+  transition: .3s ease;
+}
+
+main .animationZone .circles {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 5rem;
+  position: absolute;
+  left: 96%;
+  top: 48%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+main .animationZone .circles span {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+  background: #FBFDFF;
+}
+
+main .animationZone .frame {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+main .animationZone .frame span {
+  position: absolute;
+  top: 5.5rem;
+  left: 5.5rem;
+  transition: .3s ease-in-out;
+}
+
+main .animationZone .frame span.alerting24 h4 {
+  width: 33rem !important;
+}
+
+main .animationZone .frame span.alerting24 p {
+  width: 21rem;
+}
+
+main .animationZone .frame span.delivery h4 {
+  width: auto !important;
+}
+
+main .animationZone .frame span.delivery p {
+  width: 25rem;
+}
+
+main .animationZone .frame span h4 {
+  width: 19rem;
+}
+
+main .animationZone .frame .firstAnimImage {
+  position: absolute;
+  width: 100%;
+  height: 67.5rem;
+  left: 8rem;
+  top: 0rem;
+}
+
+main .animationZone .frame .secondAnimImage {
+  position: absolute;
+  width: 100%;
+  left: 8rem;
+  top: 3rem;
+}
+
+main .animationZone .frame .thirdAnimImage {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 3rem;
+}
+
+.space {
+  width: 100%;
+  height: 900vh;
+}
+
+section.whatWeDo {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: 2rem;
+  width: 100%;
+  z-index: 2;
+}
+
+section.whatWeDo .wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+section.whatWeDo .wrapper .row.first span,
+section.whatWeDo header .wrapper nav.first span,
+header section.whatWeDo .wrapper nav.first span,
+section.whatWeDo .wrapper main .first.wrapper span,
+main section.whatWeDo .wrapper .first.wrapper span,
+section.whatWeDo .wrapper section#devOpsTool .first.wrapper span,
+section#devOpsTool section.whatWeDo .wrapper .first.wrapper span,
+section.whatWeDo .wrapper section#clients .first.wrapper span,
+section#clients section.whatWeDo .wrapper .first.wrapper span,
+section.whatWeDo .wrapper section#contacts .first.wrapper span,
+section#contacts section.whatWeDo .wrapper .first.wrapper span {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+section.whatWeDo .wrapper .row.second,
+section.whatWeDo header .wrapper nav.second,
+header section.whatWeDo .wrapper nav.second,
+section.whatWeDo .wrapper main .second.wrapper,
+main section.whatWeDo .wrapper .second.wrapper,
+section.whatWeDo .wrapper section#devOpsTool .second.wrapper,
+section#devOpsTool section.whatWeDo .wrapper .second.wrapper,
+section.whatWeDo .wrapper section#clients .second.wrapper,
+section#clients section.whatWeDo .wrapper .second.wrapper,
+section.whatWeDo .wrapper section#contacts .second.wrapper,
+section#contacts section.whatWeDo .wrapper .second.wrapper {
+  margin-top: 15rem;
+}
+
+section.whatWeDo .wrapper .row.second span,
+section.whatWeDo header .wrapper nav.second span,
+header section.whatWeDo .wrapper nav.second span,
+section.whatWeDo .wrapper main .second.wrapper span,
+main section.whatWeDo .wrapper .second.wrapper span,
+section.whatWeDo .wrapper section#devOpsTool .second.wrapper span,
+section#devOpsTool section.whatWeDo .wrapper .second.wrapper span,
+section.whatWeDo .wrapper section#clients .second.wrapper span,
+section#clients section.whatWeDo .wrapper .second.wrapper span,
+section.whatWeDo .wrapper section#contacts .second.wrapper span,
+section#contacts section.whatWeDo .wrapper .second.wrapper span {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+section.whatWeDo .wrapper .row p,
+section.whatWeDo header .wrapper nav p,
+header section.whatWeDo .wrapper nav p,
+section.whatWeDo .wrapper main .wrapper p,
+main section.whatWeDo .wrapper .wrapper p,
+section.whatWeDo .wrapper section#devOpsTool .wrapper p,
+section#devOpsTool section.whatWeDo .wrapper .wrapper p,
+section.whatWeDo .wrapper section#clients .wrapper p,
+section#clients section.whatWeDo .wrapper .wrapper p,
+section.whatWeDo .wrapper section#contacts .wrapper p,
+section#contacts section.whatWeDo .wrapper .wrapper p,
+section.whatWeDo .wrapper .row h3,
+section.whatWeDo header .wrapper nav h3,
+header section.whatWeDo .wrapper nav h3,
+section.whatWeDo .wrapper main .wrapper h3,
+main section.whatWeDo .wrapper .wrapper h3,
+section.whatWeDo .wrapper section#devOpsTool .wrapper h3,
+section#devOpsTool section.whatWeDo .wrapper .wrapper h3,
+section.whatWeDo .wrapper section#clients .wrapper h3,
+section#clients section.whatWeDo .wrapper .wrapper h3,
+section.whatWeDo .wrapper section#contacts .wrapper h3,
+section#contacts section.whatWeDo .wrapper .wrapper h3 {
+  width: 30rem;
+}
+
+section.whatWeDo object {
+  position: absolute;
+  width: 100%;
+  height: 56rem;
+  z-index: -1;
+}
+
+section#devOpsTool {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: 20rem;
+}
+
+section#devOpsTool .wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+section#devOpsTool .wrapper p {
+  width: 54rem;
+}
+
+section#devOpsTool .wrapper .row,
+section#devOpsTool header .wrapper nav,
+header section#devOpsTool .wrapper nav,
+section#devOpsTool .wrapper .wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: 8rem;
+  width: 60rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+section#devOpsTool .wrapper .row span,
+section#devOpsTool header .wrapper nav span,
+header section#devOpsTool .wrapper nav span,
+section#devOpsTool .wrapper .wrapper span {
+  margin-top: 4rem;
+}
+
+section#devOpsTool .wrapper .row span h3,
+section#devOpsTool header .wrapper nav span h3,
+header section#devOpsTool .wrapper nav span h3,
+section#devOpsTool .wrapper .wrapper span h3 {
+  width: 26rem;
+}
+
+section#devOpsTool .wrapper .row span p,
+section#devOpsTool header .wrapper nav span p,
+header section#devOpsTool .wrapper nav span p,
+section#devOpsTool .wrapper .wrapper span p {
+  width: 23rem;
+}
+
+section#devOpsTool .background3 {
+  width: 91rem;
+  height: 100rem;
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+section#clients {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: 20rem;
+}
+
+section#clients .wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+section#clients .wrapper .row,
+section#clients header .wrapper nav,
+header section#clients .wrapper nav,
+section#clients .wrapper .wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 55rem;
+}
+
+section#clients .wrapper .row img,
+section#clients header .wrapper nav img,
+header section#clients .wrapper nav img,
+section#clients .wrapper .wrapper img {
+  width: 26rem;
+  transition: .5s ease;
+}
+
+section#clients .background4 {
+  position: absolute;
+  width: 50rem;
+  -webkit-transform: translate(20rem, 20rem);
+  -ms-transform: translate(20rem, 20rem);
+  transform: translate(20rem, 20rem);
+  z-index: -2;
+}
+
+section#contacts {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: 25rem;
+}
+
+section#contacts .wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+section#contacts .wrapper form {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 32.5rem;
+}
+
+section#contacts .wrapper form legend h4 {
+  text-align: center;
+  width: 32.5rem;
+}
+
+section#contacts .wrapper form input[type="name"],
+section#contacts .wrapper form input[type="text"] {
+  background: none;
+  width: 100%;
+  height: 4.5rem;
+  border: 0.25rem solid #512DA8;
+  border-radius: 1.5rem;
+  margin-top: 2rem;
+}
+
+section#contacts .wrapper form input[type="name"]::-webkit-input-placeholder, section#contacts .wrapper form input[type="text"]::-webkit-input-placeholder {
+  color: #C3AAFF;
+  text-indent: 1rem;
+  font-size: 1.5rem;
+}
+
+section#contacts .wrapper form input[type="name"]::-moz-placeholder, section#contacts .wrapper form input[type="text"]::-moz-placeholder {
+  color: #C3AAFF;
+  text-indent: 1rem;
+  font-size: 1.5rem;
+}
+
+section#contacts .wrapper form input[type="name"]:-ms-input-placeholder, section#contacts .wrapper form input[type="text"]:-ms-input-placeholder {
+  color: #C3AAFF;
+  text-indent: 1rem;
+  font-size: 1.5rem;
+}
+
+section#contacts .wrapper form input[type="name"]::-ms-input-placeholder, section#contacts .wrapper form input[type="text"]::-ms-input-placeholder {
+  color: #C3AAFF;
+  text-indent: 1rem;
+  font-size: 1.5rem;
+}
+
+section#contacts .wrapper form input[type="name"][placeholder],
+section#contacts .wrapper form input[type="name"]::placeholder,
+section#contacts .wrapper form input[type="text"][placeholder],
+section#contacts .wrapper form input[type="text"]::placeholder {
+  color: #C3AAFF;
+  text-indent: 1rem;
+  font-size: 1.5rem;
+}
+
+section#contacts .wrapper form input[type="submit"] {
+  font: 500 1.5rem 'Roboto', sans-serif;
+  background: #512DA8;
+  width: 100%;
+  height: 4.5rem;
+  color: white;
+  border-radius: 2rem;
+  margin-top: 2.5rem;
+}
+
+section#contacts .wrapper form input[type="submit"]:hover {
+  background: #C3AAFF;
+  cursor: pointer;
+}
+
+section#contacts .wrapper .information .social {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+section#contacts .wrapper .information .social a.eMail {
+  background: url(../images/icons/eMail-white.svg) no-repeat;
+  background-size: contain;
+}
+
+section#contacts .wrapper .information .social a.telegram {
+  background: url(../images/icons/telegram-white.svg) no-repeat;
+  background-size: contain;
+  margin-left: 2rem;
+}
+
+footer {
+  background: #EAE8F6;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 15rem;
+  padding: 1rem 0;
+}
+
+footer .navigation {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 44rem;
+}
+
+footer .navigation a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #512DA8;
+}
+
+footer address {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 6rem;
+  margin-top: 1rem;
+}
+
+footer address a.eMail {
+  background: url(../images/icons/eMail.svg) no-repeat;
+  background-size: contain;
+}
+
+footer address a.telegram {
+  background: url(../images/icons/telegram.svg) no-repeat;
+  background-size: contain;
+}
+
+footer p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #512DA8;
+}
+
+@media screen and (max-width: 1080px) {
+  html {
+    font-size: 2vw;
+  }
+
+  h3 {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+
+  h4 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .row,
+  header .wrapper nav,
+  main .wrapper,
+  section#devOpsTool .wrapper,
+  section#clients .wrapper,
+  section#contacts .wrapper {
+    width: 85%;
+  }
+
+  .relative {
+    position: relative;
+  }
+
+  header {
+    height: 10rem;
+    background: #EAE8F6;
+    position: fixed;
+    z-index: 2;
+  }
+
+  header .row,
+  header .wrapper nav,
+  header main .wrapper,
+  main header .wrapper,
+  header section#devOpsTool .wrapper,
+  section#devOpsTool header .wrapper,
+  header section#clients .wrapper,
+  section#clients header .wrapper,
+  header section#contacts .wrapper,
+  section#contacts header .wrapper {
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding: 0;
+  }
+
+  header .row img.logo,
+  header .wrapper nav img.logo,
+  header main .wrapper img.logo,
+  main header .wrapper img.logo,
+  header section#devOpsTool .wrapper img.logo,
+  section#devOpsTool header .wrapper img.logo,
+  header section#clients .wrapper img.logo,
+  section#clients header .wrapper img.logo,
+  header section#contacts .wrapper img.logo,
+  section#contacts header .wrapper img.logo {
+    margin-top: 2rem;
+    width: 20rem;
+  }
+
+  header .row address,
+  header .wrapper nav address,
+  header main .wrapper address,
+  main header .wrapper address,
+  header section#devOpsTool .wrapper address,
+  section#devOpsTool header .wrapper address,
+  header section#clients .wrapper address,
+  section#clients header .wrapper address,
+  header section#contacts .wrapper address,
+  section#contacts header .wrapper address {
+    display: none;
+  }
+
+  header .wrapper {
+    background: none;
+  }
+
+  header .wrapper nav {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 0;
+  }
+
+  header .wrapper nav .hooks {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  header .wrapper nav a.btn {
+    display: none;
+  }
+
+  main {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: none;
+    height: auto;
+    overflow: visible;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 10rem;
+  }
+
+  main .animationZone {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    position: relative;
+    background: none;
+    width: 85%;
+    left: 0;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 10rem;
+  }
+
+  main .animationZone .scrollIndicator {
+    display: none;
+  }
+
+  main .animationZone .circles {
+    display: none;
+  }
+
+  main .animationZone .frame {
+    position: relative;
+    height: auto;
+  }
+
+  main .animationZone .frame span {
+    position: relative;
+    display: block;
+    opacity: 1;
+  }
+
+  main .animationZone .frame span.support h4 {
+    margin-top: 5rem;
+    width: auto;
+  }
+
+  main .animationZone .frame span.alerting24 h4 {
+    margin-top: 5rem;
+  }
+
+  main .animationZone .frame span.delivery h4 {
+    margin-top: 5rem;
+  }
+
+  main .animationZone .frame .firstAnimImage {
+    top: -15rem;
+    left: 10rem;
+  }
+
+  main .animationZone .frame .secondAnimImage {
+    top: 0rem;
+    left: 11rem;
+  }
+
+  main .animationZone .frame .thirdAnimImage {
+    top: -5rem;
+    left: 12rem;
+    display: none;
+  }
+
+  .space {
+    display: none;
+  }
+
+  section.whatWeDo {
+    margin: 0;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 0;
+    padding-bottom: 10rem;
+  }
+
+  section.whatWeDo .wrapper .row.first span,
+  section.whatWeDo header .wrapper nav.first span,
+  header section.whatWeDo .wrapper nav.first span,
+  section.whatWeDo .wrapper main .first.wrapper span,
+  main section.whatWeDo .wrapper .first.wrapper span,
+  section.whatWeDo .wrapper section#devOpsTool .first.wrapper span,
+  section#devOpsTool section.whatWeDo .wrapper .first.wrapper span,
+  section.whatWeDo .wrapper section#clients .first.wrapper span,
+  section#clients section.whatWeDo .wrapper .first.wrapper span,
+  section.whatWeDo .wrapper section#contacts .first.wrapper span,
+  section#contacts section.whatWeDo .wrapper .first.wrapper span {
+    margin-top: 5rem;
+  }
+
+  section.whatWeDo .wrapper .row.first span p,
+  section.whatWeDo header .wrapper nav.first span p,
+  header section.whatWeDo .wrapper nav.first span p,
+  section.whatWeDo .wrapper main .first.wrapper span p,
+  main section.whatWeDo .wrapper .first.wrapper span p,
+  section.whatWeDo .wrapper section#devOpsTool .first.wrapper span p,
+  section#devOpsTool section.whatWeDo .wrapper .first.wrapper span p,
+  section.whatWeDo .wrapper section#clients .first.wrapper span p,
+  section#clients section.whatWeDo .wrapper .first.wrapper span p,
+  section.whatWeDo .wrapper section#contacts .first.wrapper span p,
+  section#contacts section.whatWeDo .wrapper .first.wrapper span p {
+    width: 100%;
+  }
+
+  section.whatWeDo .wrapper .row.second span,
+  section.whatWeDo header .wrapper nav.second span,
+  header section.whatWeDo .wrapper nav.second span,
+  section.whatWeDo .wrapper main .second.wrapper span,
+  main section.whatWeDo .wrapper .second.wrapper span,
+  section.whatWeDo .wrapper section#devOpsTool .second.wrapper span,
+  section#devOpsTool section.whatWeDo .wrapper .second.wrapper span,
+  section.whatWeDo .wrapper section#clients .second.wrapper span,
+  section#clients section.whatWeDo .wrapper .second.wrapper span,
+  section.whatWeDo .wrapper section#contacts .second.wrapper span,
+  section#contacts section.whatWeDo .wrapper .second.wrapper span {
+    margin-top: 15rem;
+  }
+
+  section.whatWeDo .wrapper .row.second p,
+  section.whatWeDo header .wrapper nav.second p,
+  header section.whatWeDo .wrapper nav.second p,
+  section.whatWeDo .wrapper main .second.wrapper p,
+  main section.whatWeDo .wrapper .second.wrapper p,
+  section.whatWeDo .wrapper section#devOpsTool .second.wrapper p,
+  section#devOpsTool section.whatWeDo .wrapper .second.wrapper p,
+  section.whatWeDo .wrapper section#clients .second.wrapper p,
+  section#clients section.whatWeDo .wrapper .second.wrapper p,
+  section.whatWeDo .wrapper section#contacts .second.wrapper p,
+  section#contacts section.whatWeDo .wrapper .second.wrapper p {
+    width: 100%;
+  }
+
+  section.whatWeDo .wrapper .row p,
+  section.whatWeDo header .wrapper nav p,
+  header section.whatWeDo .wrapper nav p,
+  section.whatWeDo .wrapper main .wrapper p,
+  main section.whatWeDo .wrapper .wrapper p,
+  section.whatWeDo .wrapper section#devOpsTool .wrapper p,
+  section#devOpsTool section.whatWeDo .wrapper .wrapper p,
+  section.whatWeDo .wrapper section#clients .wrapper p,
+  section#clients section.whatWeDo .wrapper .wrapper p,
+  section.whatWeDo .wrapper section#contacts .wrapper p,
+  section#contacts section.whatWeDo .wrapper .wrapper p,
+  section.whatWeDo .wrapper .row h3,
+  section.whatWeDo header .wrapper nav h3,
+  header section.whatWeDo .wrapper nav h3,
+  section.whatWeDo .wrapper main .wrapper h3,
+  main section.whatWeDo .wrapper .wrapper h3,
+  section.whatWeDo .wrapper section#devOpsTool .wrapper h3,
+  section#devOpsTool section.whatWeDo .wrapper .wrapper h3,
+  section.whatWeDo .wrapper section#clients .wrapper h3,
+  section#clients section.whatWeDo .wrapper .wrapper h3,
+  section.whatWeDo .wrapper section#contacts .wrapper h3,
+  section#contacts section.whatWeDo .wrapper .wrapper h3 {
+    width: 100%;
+    text-align: left;
+  }
+
+  section.whatWeDo object {
+    top: 25rem;
+    height: auto;
+  }
+
+  section#devOpsTool {
+    margin-top: 6rem;
+  }
+
+  section#devOpsTool .wrapper p {
+    width: 100%;
+  }
+
+  section#devOpsTool .wrapper .row,
+  section#devOpsTool header .wrapper nav,
+  header section#devOpsTool .wrapper nav,
+  section#devOpsTool .wrapper .wrapper {
+    width: 100%;
+    margin-top: 4rem;
+  }
+
+  section#devOpsTool .wrapper .row span,
+  section#devOpsTool header .wrapper nav span,
+  header section#devOpsTool .wrapper nav span,
+  section#devOpsTool .wrapper .wrapper span {
+    margin-top: 2rem;
+  }
+
+  section#devOpsTool .wrapper .row span h3,
+  section#devOpsTool header .wrapper nav span h3,
+  header section#devOpsTool .wrapper nav span h3,
+  section#devOpsTool .wrapper .wrapper span h3 {
+    width: 20rem;
+    font-size: 1.5rem;
+  }
+
+  section#devOpsTool .wrapper .row span p,
+  section#devOpsTool header .wrapper nav span p,
+  header section#devOpsTool .wrapper nav span p,
+  section#devOpsTool .wrapper .wrapper span p {
+    width: 20rem;
+    font-size: 1.5rem;
+  }
+
+  section#devOpsTool .background3 {
+    width: 100%;
+    top: 240rem;
+  }
+
+  section#clients {
+    margin-top: 25rem;
+  }
+
+  section#clients .wrapper .row,
+  section#clients header .wrapper nav,
+  header section#clients .wrapper nav,
+  section#clients .wrapper .wrapper {
+    width: 100%;
+  }
+
+  section#clients .wrapper .row img,
+  section#clients header .wrapper nav img,
+  header section#clients .wrapper nav img,
+  section#clients .wrapper .wrapper img {
+    width: 48%;
+  }
+
+  section#clients .background4 {
+    display: none;
+  }
+
+  section#contacts {
+    margin-top: 15rem;
+  }
+
+  section#contacts .wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  section#contacts .wrapper form {
+    width: 100%;
+  }
+
+  section#contacts .wrapper form legend h4 {
+    width: 40rem;
+  }
+
+  section#contacts .wrapper form input[type="name"],
+  section#contacts .wrapper form input[type="text"] {
+    border-radius: 3rem;
+    height: 5rem;
+  }
+
+  section#contacts .wrapper form input[type="name"]::-webkit-input-placeholder, section#contacts .wrapper form input[type="text"]::-webkit-input-placeholder {
+    text-indent: 3rem;
+  }
+
+  section#contacts .wrapper form input[type="name"]::-moz-placeholder, section#contacts .wrapper form input[type="text"]::-moz-placeholder {
+    text-indent: 3rem;
+  }
+
+  section#contacts .wrapper form input[type="name"]:-ms-input-placeholder, section#contacts .wrapper form input[type="text"]:-ms-input-placeholder {
+    text-indent: 3rem;
+  }
+
+  section#contacts .wrapper form input[type="name"]::-ms-input-placeholder, section#contacts .wrapper form input[type="text"]::-ms-input-placeholder {
+    text-indent: 3rem;
+  }
+
+  section#contacts .wrapper form input[type="name"][placeholder],
+  section#contacts .wrapper form input[type="name"]::placeholder,
+  section#contacts .wrapper form input[type="text"][placeholder],
+  section#contacts .wrapper form input[type="text"]::placeholder {
+    text-indent: 3rem;
+  }
+
+  section#contacts .wrapper form input[type="submit"] {
+    border-radius: 3rem;
+    height: 5rem;
+  }
+
+  section#contacts .wrapper .information {
+    margin-top: 5rem;
+  }
+
+  .btn-menu {
+    display: block !important;
+    width: 5.875rem;
+    height: 3.5rem;
+    margin-top: -4rem;
+    transition: .5s ease;
+  }
+
+  .btn-menu hr {
+    width: 100%;
+    height: .7rem;
+    background: #512DA8;
+    border-radius: 2rem;
+    border: none;
+    transition: .3s ease;
+  }
+
+  .btn-menu hr:nth-child(1) {
+    margin-top: 0;
+  }
+
+  .hooks {
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 9.5rem;
+    padding-top: 8vh;
+    height: 100vh;
+    width: 100vw !important;
+    background: #EAE8F6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s ease;
+  }
+
+  .hooks a {
+    margin-bottom: 5vh;
+    font-size: 5vh !important;
+    font-weight: 400 !important;
+  }
+
+  .hooks .social {
+    display: block !important;
+    width: auto;
+  }
+
+  .hooks .social a {
+    display: inline-block;
+    height: 6vh;
+    width: 6vh;
+    background-color: red;
+    margin-top: 15%;
+    margin-left: 2vh;
+  }
+
+  .hooks .social a.eMail {
+    background: url(../images/icons/eMail.svg) no-repeat;
+    background-size: contain;
+  }
+
+  .hooks .social a.telegram {
+    background: url(../images/icons/telegram.svg) no-repeat;
+    background-size: contain;
+  }
+
+  .hooks .social a.location {
+    background: url(../images/icons/location.svg) no-repeat;
+    background-size: contain;
+  }
+}
+/*# sourceMappingURL=main.css.map */
